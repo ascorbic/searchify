@@ -1,6 +1,12 @@
+require("dotenv").config();
+
 module.exports = {
   siteMetadata: {
     title: "Searchify",
   },
-  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-gatsby-cloud"],
+  plugins: [
+    "@chakra-ui/gatsby-plugin",
+    "gatsby-plugin-gatsby-cloud",
+    "gatsby-plugin-image",
+  ],
 };
